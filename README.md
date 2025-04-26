@@ -23,9 +23,6 @@ Jumper wires for connections.
 PA0: Button input with external interrupt (rising edge).
 PWM Output (PA8): Connected to an appropriate pin, configured for PWM.
 
-->Circuit Diagram
-
-
 ->Project Setup
 1-Configure the MCU: Use STM32CubeMX to configure the necessary peripherals:
 * GPIO pin PA0 as input with external interrupt.
@@ -42,5 +39,3 @@ PWM Output (PA8): Connected to an appropriate pin, configured for PWM.
 ->Code Explanation
 PWM Setup: A timer is used to generate the PWM signal, with the duty cycle adjusted based on the button press.
 Button Interrupt: The button triggers an external interrupt on PA0, which increments the duty cycle of the PWM. Once the duty cycle reaches 100%, it resets to 0.
-
-CIRCUIT INSTALLATION -> https://github.com/ssenanb/Led-Dimming-With-PWM/blob/main/WhatsApp%20G%C3%B6rsel%202025-04-27%20saat%2001.26.09_9246eb49.jpg?raw=true
