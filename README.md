@@ -19,9 +19,8 @@ Jumper wires for connections.
 * STM32 HAL library.
 * STM32CubeIDE.
 
-Circuit installation
+![Circuit installation](https://github.com/ssenanb/Led-Dimming-With-PWM/blob/main/circuit_installation.jpeg?raw=true)
 
->[Circuit installation](https://github.com/ssenanb/Led-Dimming-With-PWM/blob/main/Circuit%20Installation?raw=true)
 ->Pin Configuration
 PA0: Button input with external interrupt (rising edge).
 PWM Output (PA8): Connected to an appropriate pin, configured for PWM.
