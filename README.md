@@ -19,7 +19,8 @@ Jumper wires for connections.
 * STM32 HAL library.
 * STM32CubeIDE.
 
-![Circuit installation](https://github.com/ssenanb/Led-Dimming-With-PWM/blob/main/circuit_installation.jpeg?raw=true)
+->Circuit Installation
+<img src="https://github.com/ssenanb/Led-Dimming-With-PWM/blob/main/circuit_installation.jpeg?raw=true" alt="Devre Görseli" width="500"/>
 
 ->Pin Configuration
 PA0: Button input with external interrupt (rising edge).
